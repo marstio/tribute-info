@@ -1,0 +1,107 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+#main {
+  max-width: 80vw;
+  width: 100%;
+  overflow: hidden;
+  padding: 20px;
+  margin: 20px;
+}
+
+#name {
+  background-image: linear-gradient(to right, #e1dfdc, #d4d0ca);
+  color: #158940;
+  padding: 20px;
+  margin-bottom: -30px;
+  border-radius: 8px 8px 8px 8px;
+  z-index: 0;
+}
+
+#name h1 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 2.5em;
+}
+
+#img-div {
+  margin: 20px 0;
+  z-index: 2;
+}
+
+#image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#img-caption {
+  font-size: 1.1em;
+  margin-top: 10px;
+  color: #7f8c8d;
+  opacity: 80%;
+}
+
+#achievements {
+  text-align: left;
+  font-size: 1.1em;
+  line-height: 1.6em;
+  margin: 20px 0;
+}
+
+#achievements li {
+  margin-bottom: 15px;
+}
+
+#tribute-link {
+  color: #158940;
+  text-decoration: none;
+}
+
+#coffee {
+  color: #bb8e39;
+  text-decoration: none;
+}
+
+#coffee:hover {
+  opacity: 60%;
+  transition: 0.3s;
+}
+
+#tribute-link:hover {
+  color: rgb(2, 75, 2);
+  opacity: 75%;
+  transition: 0.3s;
+}
+
+#tribute-info {
+  margin-top: 30px;
+}
+
+#tribute-info h3 {
+  font-size: 1.3em;
+  font-weight: 400;
+  margin: 0;
+}
+
+#tribute-info a {
+  color: #4b8dfd;
+  text-decoration: none;
+}
+
+#tribute-info a:hover {
+  opacity: 75%;
+  transition: 0.3s;
+  text-decoration: underline;
+}
